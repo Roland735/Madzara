@@ -31,8 +31,8 @@
 /* Hero Section styling */
 .hero {
     height: 80vh;
-    background-image: url("path/to/your/hero-image.jpg");
-    /* Replace with your image path */
+    background-image: url("img/hero-image.jpg");
+
     background-size: cover;
     background-position: center;
 }
@@ -89,17 +89,963 @@
     color: #333;
     /* Text color */
 }
+/* Testimonials Section styling */
+.testimonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonial-card {
+    border-color: #e0e0e0;
+    /* Light gray border */
+    transition: transform 0.2s ease-in-out;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.testimonial-card img {
+    border: 3px solid #fff;
+    /* White border for customer image */
+    border-radius: 50%;
+    /* Round customer image */
+}
+
+.testimonial-card .card-body {
+    padding: 20px;
+}
+
+.testimonial-card .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    /* Text color */
+}
+
+.testimonial-card .card-title {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #666;
+    /* Title color */
+}
+/* Call to Action Section styling */
+.cta {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f0f0f0;
+    /* Light gray background */
+}
+
+.cta .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+}
+
+.cta .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+
+.cta .btn-outline-primary {
+    border-color: #28a745;
+    /* Green border for secondary button */
+    color: #28a745;
+    /* Green text for secondary button */
+}
+
+.cta .btn-outline-primary:hover {
+    background-color: #28a745;
+    /* Green background on hover */
+    color: #fff;
+    /* White text on hover */
+}
+/* Products Section styling */
+.products {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-card {
+    border-color: #e0e0e0;
+    /* Light gray border */
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    /* Adjust image height as needed */
+    object-fit: cover;
+    /* Ensure image fills the card top */
+}
+
+/* Products Hero Section styling */
+.products-hero {
+    background-image: url("path/to/background-image.jpg");
+    /* Set background image */
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    /* Text color for hero section */
+}
+
+.products-hero .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+}
+
+.products-hero .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+
+.product-showcase {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    /* Adjust width as needed for the image */
+}
+
+.product-showcase img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensure image fills the showcase area */
+}
+
+/* Hero Section styling */
+.hero {
+    background-color: #f5f5f5;
+    /* Light gray background */
+    background-image: url("img/hero-image.jpg");
+    /* Optional background image */
+    background-size: cover;
+    /* Ensure background image fills the section */
+    background-position: center;
+    /* Center background image */
+    color: #333;
+    /* Text color */
+}
+
+.hero h1 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Subtle text shadow */
+}
+
+.product-showcase {
+    max-width: 1000px;
+    /* Limit showcase width on larger screens */
+    margin-top: 50px;
+}
+
+.product-card {
+    width: 250px;
+    /* Adjust card width as needed */
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.product-card .card-img-top {
+    transition: transform 0.3s ease-in-out;
+    /* Smooth image zoom on hover */
+}
+
+/* Product Details Section styling */
+
+/* Product Details Section styling */
+.product-details {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-details .img-fluid {
+    width: 100%;
+    /* Ensure image scales responsively */
+    height: auto;
+}
+
+.product-details h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    color: #333;
+    /* Text color */
+    line-height: 1.5;
+}
+
+.product-details hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.product-details .list-group-item {
+    padding: 10px 20px;
+    /* Adjust padding for list items */
+}
+
+.product-details .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+}
+
+.product-details .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+.hero {
+  background-color: #000; /* Black background for video */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+.hero h1,
+.hero h2 {
+  color: #fff; /* White text for better contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow for depth */
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+  background-color: #28a745; /* Green primary button */
+  border-color: #28a745;
+  color: #fff; /* White text for primary button */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+  background-color: #218c3f; /* Darker green on hover */
+  border-color: #218c3f;
+}
 
 @media (min-width: 768px) {
-    .hero {
-        text-align: left;
-    }
+  .hero h1 {
+    font-size: 5rem; /* Increase heading size for larger screens */
+  }
+}
 
+
+.hero {
+    background-color: #000;
+    /* Black background for video */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
+}
+
+.hero h1,
+.hero h2 {
+    color: #fff;
+    /* White text for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Text shadow for depth */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+.hero {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+/* Hero Section styling */
+.hero {
+    height: 80vh;
+    background-image: url("path/to/your/hero-image.jpg");
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1,
+.hero p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* About Us Section styling */
+.about-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-us img {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-us .btn-primary {
+    margin-top: 20px;
+}
+
+/* Product Categories Section styling */
+.product-categories {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f5f5f5;
+    /* Light gray background */
+}
+
+.category-card {
+    background-color: #fff;
+    /* White card background */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: transform 0.2s ease-in-out;
+}
+
+.category-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.category-card img {
+    max-width: 100px;
+    /* Adjust image size as needed */
+    margin-bottom: 15px;
+}
+
+.category-card h5 {
+    font-weight: bold;
+    color: #333;
+    /* Text color */
+}
+
+/* Testimonials Section styling */
+.testimonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonial-card {
+    border-color: #e0e0e0;
+    /* Light gray border */
+    transition: transform 0.2s ease-in-out;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.testimonial-card img {
+    border: 3px solid #fff;
+    /* White border for customer image */
+    border-radius: 50%;
+    /* Round customer image */
+}
+
+.testimonial-card .card-body {
+    padding: 20px;
+}
+
+.testimonial-card .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    /* Text color */
+}
+
+.testimonial-card .card-title {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #666;
+    /* Title color */
+}
+
+/* Call to Action Section styling */
+.cta {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f0f0f0;
+    /* Light gray background */
+}
+
+.cta .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+}
+
+.cta .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+
+.cta .btn-outline-primary {
+    border-color: #28a745;
+    /* Green border for secondary button */
+    color: #28a745;
+    /* Green text for secondary button */
+}
+
+.cta .btn-outline-primary:hover {
+    background-color: #28a745;
+    /* Green background on hover */
+    color: #fff;
+    /* White text on hover */
+}
+
+/* Products Section styling */
+.products {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-card {
+    border-color: #e0e0e0;
+    /* Light gray border */
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    /* Adjust image height as needed */
+    object-fit: cover;
+    /* Ensure image fills the card top */
+}
+
+/* Products Hero Section styling */
+.products-hero {
+    background-image: url("path/to/background-image.jpg");
+    /* Set background image */
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    /* Text color for hero section */
+}
+
+.products-hero .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+}
+
+.products-hero .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+
+.product-showcase {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    /* Adjust width as needed for the image */
+}
+
+.product-showcase img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensure image fills the showcase area */
+}
+
+/* Hero Section styling */
+.hero {
+    background-color: #f5f5f5;
+    /* Light gray background */
+    background-image: url("img/hero-image.jpg");
+    /* Optional background image */
+    background-size: cover;
+    /* Ensure background image fills the section */
+    background-position: center;
+    /* Center background image */
+    color: #333;
+    /* Text color */
+}
+
+.hero h1 {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Subtle text shadow */
+}
+
+.product-showcase {
+    max-width: 1000px;
+    /* Limit showcase width on larger screens */
+    margin-top: 50px;
+}
+
+.product-card {
+    width: 250px;
+    /* Adjust card width as needed */
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.product-card .card-img-top {
+    transition: transform 0.3s ease-in-out;
+    /* Smooth image zoom on hover */
+}
+
+/* Product Details Section styling */
+
+/* Product Details Section styling */
+.product-details {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.product-details .img-fluid {
+    width: 100%;
+    /* Ensure image scales responsively */
+    height: auto;
+}
+
+.product-details h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    color: #333;
+    /* Text color */
+    line-height: 1.5;
+}
+
+.product-details hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.product-details .list-group-item {
+    padding: 10px 20px;
+    /* Adjust padding for list items */
+}
+
+.product-details .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+}
+
+.product-details .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+
+.hero {
+    background-color: #000;
+    /* Black background for video */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
+}
+
+.hero h1,
+.hero h2 {
+    color: #fff;
+    /* White text for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Text shadow for depth */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+
+@media (min-width: 768px) {
     .hero h1 {
-        font-size: 4rem;
+        font-size: 5rem;
+        /* Increase heading size for larger screens */
     }
+}
 
-    .hero h2 {
-        font-size: 2.5rem;
+
+.hero {
+    background-color: #000;
+    /* Black background for video */
+}
+
+.hero-overlay {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black overlay */
+}
+
+.hero h1,
+.hero h2 {
+    color: #fff;
+    /* White text for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Text shadow for depth */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+    background-color: #28a745;
+    /* Green primary button */
+    border-color: #28a745;
+    color: #fff;
+    /* White text for primary button */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #218c3f;
+    /* Darker green on hover */
+    border-color: #218c3f;
+}
+.team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.team h2 {
+    font-size: 2.5rem;
+    /* Adjust heading size as needed */
+    text-align: center;
+    /* Center align the heading */
+    margin-bottom: 40px;
+}
+
+
+/* Added styles for card layout and colors */
+.team .card {
+    margin-bottom: 20px;
+    /* Adjust spacing between cards */
+    border-radius: 10px;
+    /* Add rounded corners */
+    transition: transform 0.2s ease-in-out;
+    /* Add hover effect */
+}
+
+.team .card:hover {
+    transform: translateY(-3px);
+    /* Slight lift on hover */
+}
+
+.team .card.bg-info {
+    /* Style for blue card */
+    color: #fff;
+    /* Text color for info background */
+}
+
+.values {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.values h2 {
+    font-size: 2.5rem;
+    /* Adjust heading size as needed */
+    margin-bottom: 40px;
+}
+
+.values .fa-3x {
+    margin-bottom: 20px;
+}
+
+.values p {
+    font-size: 1rem;
+    /* Adjust description text size as needed */
+    line-height: 1.5;
+    color: inherit;
+    /* Inherit text color from background */
+    margin-bottom: 15px;
+}
+
+.contact-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-us h2 {
+    font-size: 2.5rem;
+    /* Adjust heading size as needed */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-us form {
+    /* Default form styles */
+}
+
+.contact-us .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-us .contact-info {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.contact-us .contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-us .contact-info a {
+    color: #333;
+    /* Text color for email link */
+}
+.why-choose {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.why-choose h2 {
+    font-size: 2.5rem;
+    /* Adjust heading size as needed */
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.why-choose i {
+    color: #333;
+    /* Adjust icon color as needed */
+}
+
+.why-choose h3 {
+    font-size: 1.8rem;
+    /* Adjust heading size as needed */
+    margin-bottom: 15px;
+}
+
+.why-choose p {
+    font-size: 1rem;
+    /* Adjust description text size as needed */
+    line-height: 1.5;
+    color: #333;
+    /* Text color */
+}
+
+.why-choose .testimonial-slider {
+    margin-top: 30px;
+}
+
+.why-choose .testimonial-slider .owl-carousel .owl-nav {
+    /* Style owl carousel navigation (optional) */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.why-choose .testimonial-slider .owl-carousel .owl-nav .owl-prev {
+    left: -30px;
+    /* Adjust previous button position */
+}
+
+.why-choose .testimonial-slider .owl-carousel .owl-nav .owl-next {
+    right: -30px;
+    /* Adjust next button position */
+}
+
+.why-choose .testimonial-slider .item p {
+    font-style: italic;
+    /* Italicize testimonial text */
+    margin-bottom: 15px;
+}
+
+.why-choose .testimonial-slider .item .client-info {
+    display: flex;
+    align-items: center;
+}
+
+.why-choose .testimonial-slider .item .client-info img {
+    width: 50px;
+    /* Adjust client image size */
+    height: 50px;
+    /* Adjust client image size */
+    border-radius: 50%;
+    /* Round client image */
+    margin-right: 10px;
+}
+
+.why-choose .testimonial-slider .item .client-name {
+    font-weight: bold;
+}
+
+.why-choose .testimonial-slider .item .client-title {
+    font-size: 0.9rem;
+    /* Adjust client title size */
+    color: #999;
+    /* Muted color for client title */
+}
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 5rem;
+        /* Increase heading size for larger screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 5rem;
+        /* Increase heading size for larger screens */
     }
 }
