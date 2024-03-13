@@ -1,26 +1,26 @@
-.hero {
+.home-hero {
     background-color: #f5f5f5;
     padding: 80px 0;
     text-align: center;
 }
 
-.hero h1 {
+.home-hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
-.hero h2 {
+.home-hero h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-.hero p {
+.home-hero p {
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 40px;
 }
 
-.hero img {
+.home-hero img {
     max-width: 100%;
     height: auto;
 }
@@ -28,17 +28,17 @@
     color: #fff;
 }
 
-/* Hero Section styling */
-.hero {
+/* home-hero Section styling */
+.home-hero {
     height: 80vh;
-    background-image: url("img/hero-image.jpg");
+    background-image: url("img/fashion.jpg");
 
     background-size: cover;
     background-position: center;
 }
 
-.hero h1,
-.hero p {
+.home-hero h1,
+.home-hero p {
     color: #fff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
@@ -191,7 +191,7 @@
 
 /* Products Hero Section styling */
 .products-hero {
-    background-image: url("path/to/background-image.jpg");
+    background-image: url("img/women.jpg");
     /* Set background image */
     background-size: cover;
     background-position: center;
@@ -232,7 +232,7 @@
 .hero {
     background-color: #f5f5f5;
     /* Light gray background */
-    background-image: url("img/hero-image.jpg");
+    /* background-image: url("img/women.jpg"); */
     /* Optional background image */
     background-size: cover;
     /* Ensure background image fills the section */
@@ -458,7 +458,7 @@
 /* Hero Section styling */
 .hero {
     height: 80vh;
-    background-image: url("path/to/your/hero-image.jpg");
+    background-image: url("/img/women.jpg");
     /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -660,10 +660,10 @@
 }
 
 /* Hero Section styling */
-.hero {
+.product-section-hero {
     background-color: #f5f5f5;
     /* Light gray background */
-    background-image: url("img/hero-image.jpg");
+    background-image: url("img/women.jpg");
     /* Optional background image */
     background-size: cover;
     /* Ensure background image fills the section */
@@ -673,7 +673,7 @@
     /* Text color */
 }
 
-.hero h1 {
+.product-section-hero  h1 {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     /* Subtle text shadow */
 }
@@ -1018,11 +1018,11 @@
 
 .why-choose .testimonial-slider .item .client-info img {
     width: 50px;
-    /* Adjust client image size */
+    
     height: 50px;
     /* Adjust client image size */
     border-radius: 50%;
-    /* Round client image */
+  
     margin-right: 10px;
 }
 
